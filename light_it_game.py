@@ -33,9 +33,6 @@ class Gamer:
 
         # how many percent of self.health must remain for self.danger to be True
         self._danger_zone_percent = 35
-        # if self.health <= self._danger_zone_percent / 100 * self._init_health
-        # self._danger is True
-        self._danger = False
 
         # the symbol for visualizing health line
         self._health_line_symbol = "."
